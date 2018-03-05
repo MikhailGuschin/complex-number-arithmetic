@@ -35,9 +35,12 @@ class Complex implements Operable {
     }
 
     /**
-     * @return string complex number "[-]x[+-]y*i" format
+     * @return string complex number string representation in "[-]x[+-]y*i" format
      */
     public function __toString() {
+        /**
+         * For compensation float error accumulation string representation use 4 more precision
+         */
         $p = $this->getFloatPrecision() + 4;
         $format = "%.{$p}f%+.{$p}f*i";
         $real = $this->getReal();
