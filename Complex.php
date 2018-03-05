@@ -16,6 +16,7 @@ use IComplexArithmeticOperable as Operable;
  * @property float $img imaginary part of complex number
  * @property int $precision float precision
  * @author Mikhail Guschin <gn.mikle@gmail.com>
+ * @link https://github.com/MikhailGuschin/complex-number-arithmetic
  */
 class Complex implements Operable {
 

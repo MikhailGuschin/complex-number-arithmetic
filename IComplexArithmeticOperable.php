@@ -6,6 +6,7 @@
  * PHP version 7
  * 
  * @author Mikhail Guschin <gn.mikle@gmail.com>
+ * @link https://github.com/MikhailGuschin/complex-number-arithmetic
  */
 interface IComplexArithmeticOperable {
 
